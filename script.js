@@ -108,7 +108,6 @@ function getBackgroundImage(choice) {
 
 function playAgain() {
     document.getElementById('triangle').style.display = 'grid';
-    document.getElementById('result').style.display = 'none';
     document.getElementById('winning-screen').style.display = 'none';
     document.getElementById('next-button').style.display = 'none';
 
