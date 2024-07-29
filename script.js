@@ -108,6 +108,7 @@ function getBackgroundImage(choice) {
 
 function playAgain() {
     document.getElementById('triangle').style.display = 'grid';
+    document.getElementById('result').style.display = 'none';
     document.getElementById('winning-screen').style.display = 'none';
     document.getElementById('next-button').style.display = 'none';
 
@@ -121,7 +122,7 @@ function nextpage() {
     document.getElementById('result').style.display = 'none';
     document.getElementById('winning-screen').style.display = 'block';
     document.getElementById('next-button').style.display = 'none';
-    document.getElementById('head').style.display = 'none';
+    
     // Reset the choices
     document.getElementById('player-picked').className = `choice ${playerChoice}`;
     document.getElementById('computer-picked').className = `choice ${computerChoice}`;
