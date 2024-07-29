@@ -31,6 +31,7 @@ body {
     margin-right: 20px;
 }
 
+
 .box_score {
     background-color: white;
     width: 130px;
@@ -169,8 +170,8 @@ h3 {
 
 #against_pc {
     color: white;
-    font-size: 28px;
-    margin: 0 0 0 510px;
+    font-size: 25px;
+    margin: 0 0 0 520px;
 }
 
 #play-again {
@@ -181,7 +182,7 @@ h3 {
     border-radius: 9px;
     font-size: 15px;
     font-weight: bold;
-    width: 150px;
+    width: 160px;
     margin: 10px 0 0 510px;
     cursor: pointer;
 }
@@ -269,22 +270,22 @@ h3 {
 }
 
 #winning-screen {
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
 #image {
-    margin-bottom: -25px;
+    margin-bottom: -20px;
 }
 
 .star {
-    height: 320px;
+    height: 260px;
     width: 35%;
-    margin-left: -140px;
+    margin-left: -160px;
 }
 
 .cup {
-    height: 200px;
+    height: 150px;
     margin: 60px 0 -10px -370px;
 }
 
@@ -296,15 +297,15 @@ p{
 
 #winning-screen,
 h1 {
-    font-size: 80px;
+    font-size: 65px;
     letter-spacing: 7px;
-    margin-bottom: -25px;
+    margin-bottom: -30px;
 
 }
 
 #winning-screen,
 p {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 #play-again-winning {
@@ -316,7 +317,7 @@ p {
     font-size: 15px;
     font-weight: bold;
     width: 150px;
-    margin-top: 30px;
+   
     cursor: pointer;
 }
 
